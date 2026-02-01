@@ -1,0 +1,11 @@
+SQL Server
+EXEC sp_help 'dbo.FactInternetSales'
+
+Oracle
+DESCRIBE AdventureWorksDW2019.FactInternetSales
+
+PostgreSQL
+SELECT * FROM AdventureWorksDW2019.FactInternetSales WHERE table_name = 'currrate';
+
+MySQL
+DESCRIBE AdventureWorksDW2019.FactInternetSales;
